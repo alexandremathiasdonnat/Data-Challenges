@@ -5,9 +5,7 @@
 ![Fire Risk Infographic](https://assets.cpg-europe.com/cms/media/gqwhn3tb/header-infographie-incendie.jpg)
 
 
-Predicting fire risk in the agricultural world is a fascinating paradox.
-
-Most farms will never experience a fire. But when one does, the financial cost can be catastrophic: destroyed buildings, lost equipment, halted production, months of recovery.
+*Predicting fire risk in the agricultural world is a fascinating paradox. Most farms will never experience a fire. But when one does, the financial cost can be catastrophic: destroyed buildings, lost equipment, halted production, months of recovery.*
 
 This rare-but-severe nature makes fire insurance one of the most challenging risks to model. That is precisely the mission Crédit Agricole Assurances entrusted to participants in this ENS data challenge: 
 
