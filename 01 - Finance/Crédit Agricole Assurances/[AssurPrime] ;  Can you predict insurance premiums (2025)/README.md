@@ -2,6 +2,9 @@
 
 ## Crédit Agricole Assurances - ENS Data Challenge
 
+![Fire Risk Infographic](https://assets.cpg-europe.com/cms/media/gqwhn3tb/header-infographie-incendie.jpg)
+
+
 Predicting fire risk in the agricultural world is a fascinating paradox.
 
 Most farms will never experience a fire. But when one does, the financial cost can be catastrophic: destroyed buildings, lost equipment, halted production, months of recovery.
