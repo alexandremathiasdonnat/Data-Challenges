@@ -1,8 +1,8 @@
 # High Frequency Market Data Microstructure Classification (2024)
 
-**CapitalFund Management - ENS Data Challenge**
+## CapitalFund Management - ENS Data Challenge 
 
-## Deep Learning for Stock Identity Recognition from Order Book Sequences
+**Deep Learning for Stock Identity Recognition from Order Book Sequences**
 
 ![High-Frequency Trading Visualization](https://www.tradingybolsaparatorpes.com/wp-content/uploads/2022/11/HFT.png)
 
