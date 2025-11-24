@@ -1,4 +1,4 @@
-# Fire Pure Premium Prediction
+# Fire Pure Premium Prediction (2025)
 
 ## Crédit Agricole Assurances - ENS Data Challenge
 
@@ -89,3 +89,7 @@ The notebook closes with improvement ideas, including:
 - Testing alternative blending schemas
 - Richer feature engineering
 - Deep models (and their risks)
+
+**Alexandre Mathias DONNAT, Sr**
+
+
