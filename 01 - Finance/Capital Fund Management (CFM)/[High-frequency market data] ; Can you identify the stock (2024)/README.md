@@ -133,6 +133,7 @@ This accuracy becomes the public score.
 After reconstruction, embedding learning, temporal modeling, and strong regularization:
 
 **Final Accuracy**: 0.42755
+
 **Rank**: 40 / 187 participants
 
 *https://challengedata.ens.fr/challenges/146*
