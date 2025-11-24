@@ -9,12 +9,13 @@
 
 *Financial microstructure is full of subtle signatures.
 Some equities trade with tight spreads and constant flow.
-Others show bursts of activity, asymmetric order imbalance, or venue-specific behavior. These patterns are rarely visible with the naked eye,
+Others show bursts of activity, asymmetric order imbalance, or venue-specific behavior.* 
+*These patterns are rarely visible with the naked eye,
 but they are deeply encoded in the flow of bid/ask updates and transactions.*
 
 And then comes the challenge:
 
-**Given one of more than 1,000 unique sequences of 100 consecutive order-book events (all anonymous, all different, and with unknown timing (milliseconds or seconds)) :** **Can we identify which of 24 equities produced it?**
+**Given one of more than 1,000 unique sequences of 100 consecutive order-book events (all anonymous, all different, and with unknown timing (milliseconds or seconds)) :** **Can we identify which of 24 equities produced it ?**
 
 This repository contains my full solution.
 
