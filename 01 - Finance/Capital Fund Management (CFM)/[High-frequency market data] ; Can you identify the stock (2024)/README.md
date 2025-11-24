@@ -67,52 +67,24 @@ Events are noisy, order-dependent, and partially stochastic — justifying the u
 
 ### I - Preprocessing
 
-**Sequence reconstruction**
-
-Raw table → 3D tensor: (1048, 100, d)
-
-**Feature handling**
-
-- Numerical features scaled
-- Categorical channels → embeddings
-- 80/20 train-validation split
+**Sequence reconstruction** (Raw table → 3D tensor: (1048, 100, d))
+**Feature handling** (Numerical features scaled, Categorical channels to embeddings, 80/20 train-validation split)
 
 ### II - Model architecture
 
-**Embeddings**
-
-For venue, action, side, trade.
-Learned representations: $\text{Embed}(c) \in \mathbb{R}^k$
+**Embeddings** (For venue, action, side, trade), Learned representations: $\text{Embed}(c) \in \mathbb{R}^k$
 
 **Bidirectional GRU**
+Processes temporal structure forward and backward: $$h_t^{bi} = [h_t^{\rightarrow}, h_t^{\leftarrow}]$$
+Mathematically, gates allow: $$h_t = (1 - z_t)h_{t-1} + z_t \tilde{h}_t$$
 
-Processes temporal structure forward and backward:
-$$h_t^{bi} = [h_t^{\rightarrow}, h_t^{\leftarrow}]$$
-
-Mathematically, gates allow:
-$$h_t = (1 - z_t)h_{t-1} + z_t \tilde{h}_t$$
-
-**Regularization**
-
-- dropout
-- recurrent dropout
-- L2 penalties
-- layer normalization
-- label smoothing ($\varepsilon = 0.1$)
+**Regularization** (Dropout, recurrent dropout, L2 penalties, layer normalization, label smoothing ($\varepsilon = 0.1$))
 
 **Softmax classifier**
-
-Outputs: $p(y = k | x)$
-
-Prediction via: $\hat{y} = \arg\max_k p(y = k | x)$
+Outputs: $p(y = k | x)$, Prediction via: $\hat{y} = \arg\max_k p(y = k | x)$
 
 ### III - Training strategy
-
-- Early stopping
-- ReduceLROnPlateau
-- Best-epoch checkpointing
-
-Ensures stable learning and good generalization.
+Early stopping, ReduceLROnPlateau, Best-epoch checkpointing : Ensures stable learning and good generalization.
 
 ### IV - Prediction
 
@@ -121,11 +93,7 @@ Reload the best GRU model, apply identical preprocessing, predict class probabil
 ## How performance is evaluated
 
 The challenge platform receives your prediction file and compares it with the real stock identities of the test sequences (identities that participants never have access to).
-
-It computes:
-
-$$\text{Accuracy} = \frac{\text{Correct predictions}}{\text{Total predictions}}$$
-
+It computes: $$\text{Accuracy} = \frac{\text{Correct predictions}}{\text{Total predictions}}$$
 This accuracy becomes the public score.
 
 ## My results
