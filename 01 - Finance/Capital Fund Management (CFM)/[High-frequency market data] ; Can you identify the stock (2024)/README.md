@@ -4,7 +4,7 @@
 
 (**Deep Learning for Stock Identity Recognition from Order Book Sequences**)
 
-![High-Frequency Trading Visualization](https://www.tradingybolsaparatorpes.com/wp-content/uploads/2022/11/HFT.png)
+![High-Frequency Trading Visualization](https://empirica.io/wp-content/uploads/2020/05/high-frequency-trading.jpg)
 
 
 *Financial microstructure is full of subtle signatures.
