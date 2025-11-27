@@ -4,11 +4,17 @@
 
 ![Electric Grid](https://biztechmagazine.com/sites/biztechmagazine.com/files/styles/cdw_hero/public/articles/202110/electric%20grid%20hero.jpg?itok=4nD1-GFZ)
 
-*Predicting short-term electricity price spreads is a unique modelling problem. The FR–DE day-ahead market moves under the combined influence of weather, renewables, fuel costs, imports/exports, consumption cycles… and yet remains noisy, abrupt, and partly unpredictable*
+*Can we forecast tomorrow’s FR–DE electricity spread (the day-to-day variation of a futures contract on electricity price) using only today’s physical, meteorological, and fuel indicators?*
 
-This challenge asks a deceptively simple question:
+Our avaible data provides, for each country and each day, dozens of system drivers: wind and solar production, residual load, cross-border flows, gas/coal/CO₂ prices, temperature, wind speed, rainfall, and more. The target is the spread variation, a tiny and extremely noisy signal extracted from electricity futures.
 
-*Can we predict tomorrow’s FR–DE electricity spread using today’s physical, meteorological, and fuel indicators?*
+This makes the problem uniquely difficult:
+- Very low signal-to-noise ratio :  the true predictive signal is tiny compared to randomness.
+- Different structural regimes in France vs Germany.
+- Missing key variables (nuclear availability, outages, intraday shocks).
+- Spearman correlation as evaluation, which ignores exact values and evaluates only the ranking : weakens traditional ML precision, amplifies noise, and strongly favors overfitting when data is limited.
+
+**Despite this, careful feature engineering and robust validation can extract part of the underlying structure.**
 
 This repository contains my full modelling framework.
 
