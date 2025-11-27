@@ -6,9 +6,9 @@
 
 *Can we forecast tomorrow’s FR–DE electricity spread (the day-to-day variation of a futures contract on electricity price) using only today’s physical, meteorological, and fuel indicators?*
 
-Our avaible data provides, for each country and each day, dozens of system drivers: wind and solar production, residual load, cross-border flows, gas/coal/CO₂ prices, temperature, wind speed, rainfall, and more. The target is the spread variation, a tiny and extremely noisy signal extracted from electricity futures.
+*Our avaible data provides, for each country and each day, dozens of system drivers: wind and solar production, residual load, cross-border flows, gas/coal/CO₂ prices, temperature, wind speed, rainfall, and more. The target is the spread variation, a tiny and extremely noisy signal extracted from electricity futures.*
 
-This makes the problem uniquely difficult:
+**This makes the problem uniquely difficult:**
 - Very low signal-to-noise ratio :  the true predictive signal is tiny compared to randomness.
 - Different structural regimes in France vs Germany.
 - Missing key variables (nuclear availability, outages, intraday shocks).
