@@ -88,7 +88,7 @@ These form a compact but expressive representation.
 - early stopping
 - careful validation
 
-This is sufficient to surpass the benchmark and extract real signal.
+This is sufficient to approximate the provided benchmark and extract real signal by surpassing randomness.
 
 ## Modeling pipeline
 
