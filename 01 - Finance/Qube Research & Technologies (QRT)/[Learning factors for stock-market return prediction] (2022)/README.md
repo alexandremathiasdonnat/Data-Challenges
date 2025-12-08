@@ -3,7 +3,7 @@
 ## QRT - ENS Data Challenge
 *Equity Markets & Geometric Modelling*
 
-![img](https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-59728-3_36/MediaObjects/505220_1_En_36_Fig3_HTML.png)
+![alt text](fig.png)
 
 *Can we design a set of linear factors that turn noisy past returns into a stable, directional signal for tomorrow's cross-sectional equity returns?*
 
@@ -81,7 +81,7 @@ Parametrize orthonormality exactly:
 
 The exponential of an antisymmetric matrix is orthogonal, so $A^\top A = I_F$ holds exactly—no projections or penalties. Optimize via PyTorch (Adam, 200 epochs).
 
-## Results
+## My results
 
 - **Public leaderboard metric**: ≈ 0.0838  
 - **In-sample metric**: ≈ 0.14  
