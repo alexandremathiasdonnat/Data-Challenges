@@ -31,7 +31,7 @@ This has two implications:
 - The true signal is extremely noisy.
 - Classical ML struggles unless carefully steered toward rank behaviour.
 
-A mathematically-guided approach
+## A mathematically-guided approach
 
 Although the notebook contains the full technical pipeline, the intuition is built on three pillars.
 
