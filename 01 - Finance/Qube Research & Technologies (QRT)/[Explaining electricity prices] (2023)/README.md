@@ -57,7 +57,7 @@ The predicted rank-preserving values are exported for submission.
 
 ## Evaluation
 
-Predictions are sent to the platform, which computes: the Spearman correlation between predicted ranking and hidden true ranking (a higher Spearman indicates better ordering and better forecasting performance) :  *https://challengedata.ens.fr*
+Predictions are sent to the platform, which computes: the Spearman correlation between predicted ranking and hidden true ranking (a higher Spearman indicates better ordering and better forecasting performance) :  *https://challengedata.ens.fr/challenges/97*
 
 ## My results
 

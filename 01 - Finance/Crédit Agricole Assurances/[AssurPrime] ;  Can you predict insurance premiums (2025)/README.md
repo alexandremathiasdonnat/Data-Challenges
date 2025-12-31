@@ -51,7 +51,7 @@ This hybrid approach proved extremely effective: mathematics, probability modell
 
 ##  How is the final model performance evaluated ?
 
-The true fire premiums for the test set are hidden by the platform : *https://challengedata.ens.fr*
+The true fire premiums for the test set are hidden by the platform : *https://challengedata.ens.fr/challenges/161*
 
 We submit our predictions, and the system computes:
 
