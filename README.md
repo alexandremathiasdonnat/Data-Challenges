@@ -71,6 +71,15 @@ https://challengedata.ens.fr/challenges/72
 
 ---
 
+### Directional Allocation Trust/Fade Modelling (2026)
+
+**QRT - ENS Data Challenge**
+Learning to predict whether a systematic asset allocation should be followed or faded using past return dynamics, liquidity signatures, and turnover behaviour under a directional accuracy metric.
+**Result:** Rank 79 / 360
+https://challengedata.ens.fr/challenges/167
+
+--- 
+
 ## My Methodological Philosophy
 
 Across challenges, my dominant effort lies in representation building rather than model tuning.
