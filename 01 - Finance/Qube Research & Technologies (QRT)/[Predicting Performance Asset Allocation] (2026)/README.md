@@ -107,7 +107,7 @@ Only economically interpretable interactions:
 
 - **Public leaderboard score:** 0.5154
 - **Validation accuracy:** ≈ 0.526
-- **Final rank** : 79/360 on https://challengedata.ens.fr/participants/challenges/162/
+- **Final rank** : 79/360 on https://challengedata.ens.fr/participants/challenges/167/
 
 
 Extensive attempts at feature inflation, cross-sectional leakage tricks, regime priors, and tail-risk modelling did not materially improve performance, indicating proximity to the signal frontier.
