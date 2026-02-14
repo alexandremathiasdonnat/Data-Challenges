@@ -69,7 +69,9 @@ For windows $k \in \{3, 5, 10, 20\}$:
 
 ### Scale-Free Normalisation
 
-$$\text{ret\_norm} = \frac{\text{return}}{\text{volatility}}$$
+$$\text{ret\_norm} = \frac{r_{S,t}}{\sigma_{S,t}}$$
+
+Where $\sigma_{S,t}$ is the rolling volatility over the recent window.
 
 Normalises returns by recent volatility to enable fair comparison across allocations with different risk profiles.
 
