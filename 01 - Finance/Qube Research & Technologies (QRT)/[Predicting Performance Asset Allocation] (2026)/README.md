@@ -69,7 +69,9 @@ For windows $k \in \{3, 5, 10, 20\}$:
 
 ### Scale-Free Normalisation
 
-$$\text{ret\_norm}_1 = \frac{\text{RET}_1}{\sigma_5}$$
+$$\text{ret\_norm} = \frac{\text{return}}{\text{volatility}}$$
+
+Normalises returns by recent volatility to enable fair comparison across allocations with different risk profiles.
 
 Removes volatility scaling differences between allocations.
 
